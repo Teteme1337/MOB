@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LR31</string>
+    <string name="user_name">maxgalitskiy@gmail.com</string>
+    <string name="nav_inbox">Сообщения</string>
+    <string name="nav_drafts">Черновики</string>
+    <string name="nav_sent">Отправить сообщения</string>
+    <string name="nav_trash">Корзина</string>
+    <string name="nav_support">Поддержка</string>
+    <string name="nav_help">Помощь</string>
+    <string name="nav_feedback">Оставить отзыв</string>
+    <string name="nav_open_drawer">Открыть навигацию</string>
+    <string name="nav_close_drawer">Закрыть навигацию</string>
+</resources>

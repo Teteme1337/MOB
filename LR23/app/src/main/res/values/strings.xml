@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LR23</string>
+    <string name="to_label">Кому:</string>
+    <string name="email_hint">Введите email адрес</string>
+    <string name="subject_hint">Тема</string>
+    <string name="send_button">Отправить</string>
+    <string name="message_hint">Сообщение</string>
+</resources>

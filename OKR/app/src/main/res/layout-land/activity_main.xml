@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="center_vertical">
+
+        <!-- Title Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Кашталян Никита 68MC Вариант 1"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <!-- Display the Formula Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/form"
+            android:layout_gravity="center"
+            android:layout_marginVertical="30dp"/>
+
+        <!-- Input Fields with Labels (a, b, α) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Input Field for 'a' -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/input_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="a"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Input Field for 'α' -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="α"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/input_alpha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="α"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Input Field for 'b' -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b"
+                    android:textSize="16sp"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/input_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="b"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Calculate Button and Result Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- Button to calculate the result -->
+            <Button
+                android:id="@+id/btn_calculate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="РАССЧИТАТЬ"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#6200EE"
+                android:textSize="15sp"
+                android:layout_marginEnd="16dp"/>
+
+            <!-- Display the result -->
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Результат"
+                android:textSize="20sp"
+                android:gravity="start|center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:src="@drawable/sqr"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

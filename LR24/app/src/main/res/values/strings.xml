@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LR24</string>
+
+    <string-array name="options">
+        <item>Кофе</item>
+        <item>Пирожные</item>
+        <item>Кофейни</item>
+    </string-array>
+
+</resources>

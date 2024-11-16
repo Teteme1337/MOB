@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LR22</string>
+
+    <string name="to">Кому</string>
+    <string name="message">Сообщение</string>
+
+    <string name="confirm">Подтвердить</string>
+
+    <string name="on">Горячий</string>
+    <string name="off">Холодный</string>
+
+    <string name="milk">Молоко</string>
+    <string name="cream">Сливки</string>
+    <string name="sugar">Сахар</string>
+    <string name="syrup">Сироп</string>
+
+    <string-array name="type_o_negative">
+        <item>Доставка</item>
+        <item>Самовывоз</item>
+    </string-array>
+</resources>
